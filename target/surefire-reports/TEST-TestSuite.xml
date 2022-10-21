@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="TestSuite" time="7.747" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="TestSuite" time="18.836" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -8,7 +8,7 @@
     <property name="user.country.format" value="PK"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/myounus/Documents/Personal/registrationForm-test-automation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/myounus/Documents/Personal/toolsQARegistrationForm"/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/myounus/Documents/Personal/registrationForm-test-automation"/>
+    <property name="user.dir" value="/Users/myounus/Documents/Personal/toolsQARegistrationForm"/>
     <property name="java.runtime.version" value="1.8.0_352-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Users/myounus/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/endorsed"/>
@@ -48,7 +48,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Users/myounus/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -67,31 +67,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="firstNameValidation" time="2.645"/>
-  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="lastNameValidation" time="2.612"/>
-  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="genderValidation" time="2.49">
-    <failure message="expected [#dc3545] but found [#ffffff]" type="java.lang.AssertionError">java.lang.AssertionError: expected [#dc3545] but found [#ffffff]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at toolsQA.test.pageobjects.RegistrationPage.verifyGender(RegistrationPage.java:64)
-	at toolsQA.automation.tests.RegistrationFormTest.genderValidation(RegistrationFormTest.java:48)
-</failure>
-    <system-err>Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 50055
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 21, 2022 7:15:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Oct 21, 2022 7:15:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 96, so returning the closest version found: a no-op implementation
-Oct 21, 2022 7:15:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 96.
-Oct 21, 2022 7:15:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-</system-err>
-  </testcase>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="firstNameValidation" time="2.809"/>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="lastNameValidation" time="2.565"/>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="genderValidation" time="2.604"/>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="mobileNumberValidation" time="2.605"/>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="mobileNumberLengthValidation" time="2.552"/>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="emailFormatValidation" time="2.555"/>
+  <testcase classname="toolsQA.automation.tests.RegistrationFormTest" name="successfulFormSubmission" time="3.146"/>
 </testsuite>

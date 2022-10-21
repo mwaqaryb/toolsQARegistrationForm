@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.092 sec <<< FAILURE!
-genderValidation(toolsQA.automation.tests.RegistrationFormTest)  Time elapsed: 2.49 sec  <<< FAILURE!
-java.lang.AssertionError: expected [#dc3545] but found [#ffffff]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at toolsQA.test.pageobjects.RegistrationPage.verifyGender(RegistrationPage.java:64)
-	at toolsQA.automation.tests.RegistrationFormTest.genderValidation(RegistrationFormTest.java:48)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 90.596 sec

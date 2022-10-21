@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
-
 import static javafx.application.Platform.exit;
 
 public class BaseTest {

@@ -1,97 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="31815" started-at="2022-10-21T14:15:10Z" finished-at="2022-10-21T14:15:42Z">
+  <suite name="Command line suite" duration-ms="90304" started-at="2022-10-21T17:39:04Z" finished-at="2022-10-21T17:40:34Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="31815" started-at="2022-10-21T14:15:10Z" finished-at="2022-10-21T14:15:42Z">
+    <test name="Command line test" duration-ms="90304" started-at="2022-10-21T17:39:04Z" finished-at="2022-10-21T17:40:34Z">
       <class name="toolsQA.automation.tests.RegistrationFormTest">
-        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="8410" started-at="2022-10-21T14:15:10Z" finished-at="2022-10-21T14:15:18Z">
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="10182" started-at="2022-10-21T17:39:04Z" finished-at="2022-10-21T17:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadRegistrationForm -->
-        <test-method status="PASS" signature="firstNameValidation()[pri:1, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="firstNameValidation" duration-ms="2643" started-at="2022-10-21T14:15:18Z" finished-at="2022-10-21T14:15:21Z">
+        <test-method status="PASS" signature="firstNameValidation()[pri:1, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="firstNameValidation" duration-ms="2809" started-at="2022-10-21T17:39:14Z" finished-at="2022-10-21T17:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstNameValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="177" started-at="2022-10-21T14:15:21Z" finished-at="2022-10-21T14:15:21Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="246" started-at="2022-10-21T17:39:17Z" finished-at="2022-10-21T17:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="7315" started-at="2022-10-21T14:15:21Z" finished-at="2022-10-21T14:15:28Z">
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="8852" started-at="2022-10-21T17:39:17Z" finished-at="2022-10-21T17:39:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadRegistrationForm -->
-        <test-method status="PASS" signature="lastNameValidation()[pri:2, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="lastNameValidation" duration-ms="2612" started-at="2022-10-21T14:15:28Z" finished-at="2022-10-21T14:15:31Z">
+        <test-method status="PASS" signature="lastNameValidation()[pri:2, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="lastNameValidation" duration-ms="2565" started-at="2022-10-21T17:39:26Z" finished-at="2022-10-21T17:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastNameValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="172" started-at="2022-10-21T14:15:31Z" finished-at="2022-10-21T14:15:31Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="317" started-at="2022-10-21T17:39:29Z" finished-at="2022-10-21T17:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="7796" started-at="2022-10-21T14:15:31Z" finished-at="2022-10-21T14:15:39Z">
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="11554" started-at="2022-10-21T17:39:29Z" finished-at="2022-10-21T17:39:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadRegistrationForm -->
-        <test-method status="FAIL" signature="genderValidation()[pri:3, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="genderValidation" duration-ms="2488" started-at="2022-10-21T14:15:39Z" finished-at="2022-10-21T14:15:42Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [#dc3545] but found [#ffffff]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#dc3545] but found [#ffffff]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at toolsQA.test.pageobjects.RegistrationPage.verifyGender(RegistrationPage.java:64)
-at toolsQA.automation.tests.RegistrationFormTest.genderValidation(RegistrationFormTest.java:48)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="genderValidation()[pri:3, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="genderValidation" duration-ms="2604" started-at="2022-10-21T17:39:41Z" finished-at="2022-10-21T17:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- genderValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="181" started-at="2022-10-21T14:15:42Z" finished-at="2022-10-21T14:15:42Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="220" started-at="2022-10-21T17:39:43Z" finished-at="2022-10-21T17:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="8466" started-at="2022-10-21T17:39:43Z" finished-at="2022-10-21T17:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadRegistrationForm -->
+        <test-method status="PASS" signature="mobileNumberValidation()[pri:4, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="mobileNumberValidation" duration-ms="2605" started-at="2022-10-21T17:39:52Z" finished-at="2022-10-21T17:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumberValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="208" started-at="2022-10-21T17:39:54Z" finished-at="2022-10-21T17:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="7674" started-at="2022-10-21T17:39:55Z" finished-at="2022-10-21T17:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadRegistrationForm -->
+        <test-method status="PASS" signature="mobileNumberLengthValidation()[pri:5, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="mobileNumberLengthValidation" duration-ms="2552" started-at="2022-10-21T17:40:02Z" finished-at="2022-10-21T17:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumberLengthValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="247" started-at="2022-10-21T17:40:05Z" finished-at="2022-10-21T17:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="11679" started-at="2022-10-21T17:40:05Z" finished-at="2022-10-21T17:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadRegistrationForm -->
+        <test-method status="PASS" signature="emailFormatValidation()[pri:6, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="emailFormatValidation" duration-ms="2555" started-at="2022-10-21T17:40:17Z" finished-at="2022-10-21T17:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFormatValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="184" started-at="2022-10-21T17:40:19Z" finished-at="2022-10-21T17:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="loadRegistrationForm()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="loadRegistrationForm" is-config="true" duration-ms="11361" started-at="2022-10-21T17:40:20Z" finished-at="2022-10-21T17:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadRegistrationForm -->
+        <test-method status="PASS" signature="successfulFormSubmission()[pri:7, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="successfulFormSubmission" duration-ms="3146" started-at="2022-10-21T17:40:31Z" finished-at="2022-10-21T17:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulFormSubmission -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:toolsQA.automation.tests.RegistrationFormTest@2ef5e5e3]" name="teardown" is-config="true" duration-ms="250" started-at="2022-10-21T17:40:34Z" finished-at="2022-10-21T17:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
