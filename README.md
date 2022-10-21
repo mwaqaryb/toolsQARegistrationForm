@@ -70,4 +70,4 @@ To execute the framework we need to execute the "mvn test" command in terminal w
 
 ## ScreenShots
 
-![Screenshots](images/ScreenShots.png)
+![Screenshots](images/screenshot.png)
